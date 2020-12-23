@@ -8,3 +8,9 @@ setup(
     },
     entry_points = {'scrapy': ['settings = FB_events.settings']},
 )
+[settings]
+default = FB_events.settings
+
+[deploy]
+#url = http://localhost:6800/
+project = FB_events

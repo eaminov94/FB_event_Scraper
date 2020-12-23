@@ -1,0 +1,5 @@
+project: 477715
+requirements:
+  file: requirements.txt
+  
+image: true

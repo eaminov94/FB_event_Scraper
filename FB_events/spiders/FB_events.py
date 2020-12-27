@@ -492,11 +492,11 @@ class SpiderSpider(scrapy.Spider):
         
         print('Scrapying done, building pipeline')
         #connecting to Postgres
-        connection = psycopg2.connect(user="fbfdolpznhrrcf",
-                              password="402cfdae55c1434dedb7f7c0375352ecf3ac7d514da218de5e8c4ff253691240",
-                              host="ec2-54-146-4-66.compute-1.amazonaws.com",
+        connection = psycopg2.connect(user="yohptqqwkueivi",
+                              password="d71d9d14019340b254a42d5959b1f292be6730747a8aa558a8a0e88d6de22b29",
+                              host="ec2-54-91-178-234.compute-1.amazonaws.com",
                               port="5432",
-                              database="dap1907mtv3cbb")
+                              database="db9au898jdrq9s")
         cursor = connection.cursor()
         #wringing to postgres
         def execute_values(conn, df, table):
